@@ -174,9 +174,9 @@ public class TimeUtil {
 
     /**
      * 将Date以指定格式转换为日期时间字符串
-     * @param date
-     * @param format_type
-     * @return
+     * @param date          日期
+     * @param format_type   格式
+     * @return              时间字符串
      */
     public static String getStringFromTime(Date date, TIME_FORMAT_TYPE format_type) {
         if(format_type==null) format_type = TIME_FORMAT_TYPE.FORMAT_DATE_TIME;
